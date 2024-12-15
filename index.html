@@ -3,33 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CS499 Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      background: #007acc;
-      color: #fff;
-      padding: 1rem 0;
-      text-align: center;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <title>CS499 Professional Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -37,36 +13,36 @@
   </header>
 
   <section id="assessment">
-    <h2>Professional Self-Assessment</h2>
-    <p>
-      My journey through the Bachelor of Science in Computer Science program has been transformative, equipping me with a diverse skill set and the confidence to tackle real-world challenges in software development. This portfolio highlights my growth and technical expertise in software design, algorithms, and databases.
-    </p>
-    <p>
-      The artifacts and enhancements showcased below demonstrate my ability to create robust software solutions, optimize performance, and manage secure databases. I hope this portfolio provides a clear picture of my skills and the value I can bring to the field of computer science.
-    </p>
-  </section>
+  <h2>Professional Self-Assessment</h2>
+  <p>
+    My journey through the Bachelor of Science in Computer Science program has been transformative, equipping me with a diverse skill set to tackle challenges in software design, algorithms, and databases. I have grown as a collaborator, problem solver, and communicator, and I am ready to bring value to the professional field.
+  </p>
+  <a href="full-assessment.html" class="button">Read Full Assessment</a>
+</section>
+
 
   <section id="corner-grocer">
     <h2>Corner Grocer Project</h2>
-    <p>
-      The <strong>Corner Grocer</strong> project is a comprehensive inventory management system. This artifact was enhanced in three key areas:
-    </p>
+    <div class="card">
+      <p>The <strong>Corner Grocer</strong> project is a comprehensive inventory management system enhanced in three key areas:</p>
+      <a href="https://github.com/tmillyz/CornerGrocer" target="_blank">View Project</a>
+    </div>
     <ul>
-      <li><strong>Software Design and Engineering:</strong> Enhanced code structure and implemented best practices.</li>
-      <li><strong>Algorithms and Data Structures:</strong> Integrated optimized sorting algorithms and data manipulation techniques.</li>
-      <li><strong>Databases:</strong> Replaced JSON with SQLite for better scalability and security.</li>
+      <li><strong>Software Design and Engineering:</strong> Improved code structure and implemented best practices.</li>
+      <li><strong>Algorithms and Data Structures:</strong> Optimized sorting algorithms for better performance.</li>
+      <li><strong>Databases:</strong> Integrated SQLite for secure and scalable data management.</li>
     </ul>
-    <p>
-      <a href="https://github.com/tmillyz/CornerGrocer" target="_blank">View Corner Grocer Project on GitHub</a>
-    </p>
   </section>
 
   <section id="code-review">
     <h2>Code Review</h2>
     <p>
-      As part of the enhancement process, I conducted a code review to identify areas for improvement and plan enhancements. You can watch the code review video below:
+      Watch the code review video to learn about the artifact, planned enhancements, and their alignment with professional standards:
     </p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://youtu.be/xdt7IEOcoYk" allowfullscreen></iframe>
   </section>
+
+  <button class="scroll-to-top" onclick="scrollToTop()">&#8679;</button>
+  <script src="script.js"></script>
 </body>
 </html>
